@@ -17,10 +17,7 @@ type Film struct {
 	Director string
 }
 
-var films []Film = []Film{
-	{Title: "The Godfather", Director: "Francis Ford Coppola"},
-	{Title: "Blade Runner", Director: "Ridley Scott"},
-}
+var films []Film = []Film{}
 
 func main() {
 
